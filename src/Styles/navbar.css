@@ -1,0 +1,75 @@
+.global-wrapper {
+    height: fit-content;
+}
+
+.header {
+    background-color: rgba(232, 239, 242, 0.55);
+    ;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 130px;
+}
+
+.wavic-logo {
+    display: flex;
+    max-width: 125px;
+}
+
+.navigation {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.btn-group {
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    margin: 0 8px;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.btn-group-padding {
+    padding-bottom: 10px;
+}
+
+.circle-icon-profilePic {
+    border: solid 2px #515A6E;
+    width: 20px;
+    height: 20px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+.profile-btn {
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+.span-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #1A1A1A;
+}
+
+.span-text.text-color:hover {
+    color: #120BD1;
+}
+
+.span-text.logout:hover {
+    color: #B30B91;
+}

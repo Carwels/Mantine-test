@@ -1,0 +1,113 @@
+.track-version {
+    width: 100%;
+    padding: 0 28px 0;
+    border-radius: 4px;
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 12%);
+    background-color: #381f56;
+    border-spacing: 0 20px;
+    table-layout: fixed;
+}
+
+.table-text-header {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.14;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.table-align {
+    text-align: left;
+}
+
+.table-text {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    color: #f3f3f3;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 80px;
+}
+
+.table-text:hover {
+    background: #422566;
+    cursor: pointer;
+}
+
+.table-text-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-icon-version {
+    border: solid 2px #e8eff2;
+    width: 32px;
+    height: 32px;
+    border-radius: 32px;
+    margin-left: -8px;
+    background-color: #d1d6f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #381f56;
+    font-size: 13px
+}
+
+.circle-icon-team {
+    border: solid 2px #e8eff2;
+    width: 32px;
+    height: 32px;
+    border-radius: 32px;
+    margin-left: -8px;
+    background-color: #6a74b4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 13px
+}
+
+.super-index-relative {
+    position: relative;
+}
+
+.super-index {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.33;
+    text-align: left;
+    color: #f5fefe;
+    position: absolute;
+    top: -26px;
+    right: -18px;
+}
+
+.super-index.position-hover {
+    top: -38px;
+}
+
+.circle-icon-border {
+    border: solid 2px #e8eff2;
+    width: 32px;
+    height: 32px;
+    border-radius: 32px;
+}
+
+.circle-icon-border.grey-border {
+    border: solid 2px #808695;
+}
+
+.users-icon-center {
+    padding: 6px 0 0 8px;
+}
+
+.circle-icon-border.position:hover {
+    margin-bottom: 15px;
+}

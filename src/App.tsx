@@ -1,24 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
+import { MantineProvider, Paper } from '@mantine/core';
 import './App.css';
+import './index.css'
+import Navbar from './Components/Navbar'
+import HeaderText from './Components/HeaderText'
+
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <MantineProvider >
+          <Paper radius={0} style={{ minHeight: "100vh", backgroundColor: "#F5FEFE" }}>
+            <Navbar />
+            <HeaderText />
+          </Paper>
+        </MantineProvider>
     </div>
   );
 }

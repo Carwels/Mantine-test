@@ -1,0 +1,28 @@
+.underline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    box-shadow: inset 0 -1px 0 0 #e0e0e0;
+}
+
+.underline-tab {
+    display: flex;
+    flex-direction: column;
+}
+
+.tracklist-title {
+    padding: 24px 0;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: start;
+    color: #262466;
+}
+
+.underline-line {
+    height: 4px;
+    width: 100%;
+    background-color: #262466;
+}
